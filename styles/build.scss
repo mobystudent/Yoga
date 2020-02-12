@@ -1,0 +1,15 @@
+//Variables
+@import "variables/colors.scss";
+@import "variables/fonts.scss";
+
+//Defaults
+@import "common/default.scss";
+
+//Mixins
+@import "mixins/placeholder.scss";
+
+//Blocks
+@import "blocks/header.scss";
+@import "blocks/nav.scss";
+@import "blocks/container.scss";
+@import "blocks/logo.scss";

@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    align-items: center;
+
+    &__ul {
+        display: flex;
+        margin-bottom: 7px;
+    }
+
+    &__li {
+        margin-right: 28px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__link {
+        font-size: 14px;
+        color: $deepGray;
+        position: relative;
+        font-family: $OpenSansSB;
+        letter-spacing: .04em;
+
+        &--active {
+            color: $blue;
+
+            &:before {
+                content: '';
+                position: absolute;
+                bottom: -4px;
+                left: 50%;
+                width: 30px;
+                height: 1px;
+                background: $blue;
+                transform: translateX(-50%);
+            }
+        }
+    }
+}

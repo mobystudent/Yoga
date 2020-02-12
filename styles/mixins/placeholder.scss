@@ -1,0 +1,31 @@
+@mixin placeholder($font-size, $color) {
+    &::placeholder {
+        color: $color;
+        opacity: 1;
+        font: 400 $font-size "Open Sans", sans-serif;
+    }
+
+    &::-ms-placeholder {
+        color: $color;
+        opacity: 1;
+        font: 400 $font-size "Open Sans", sans-serif;
+    }
+
+    &:-ms-input-placeholder {
+        color: $color;
+        opacity: 1;
+        font: 400 $font-size "Open Sans", sans-serif;
+    }
+
+    &:focus:placeholder {
+        opacity: 0;
+    }
+
+    &:focus::-ms-placeholder {
+        opacity: 0;
+    }
+
+    &:focus:-ms-input-placeholder {
+        opacity: 0;
+    }
+}

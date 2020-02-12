@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["index.pug"],"sourcesContent":["extends layout/layout\r\n\r\nblock title\r\n   title Yoga\r\n   \r\nblock content\r\n   article.wrapper.display--fl.fl--col-nowr\r\n      include includes/header.pug\r\n"],"file":"index.html"}
