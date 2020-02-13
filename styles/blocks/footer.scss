@@ -1,0 +1,49 @@
+.footer {
+    background: $lightBlue;
+    color: $white;
+
+    &__wrap {
+        padding-top: 95px;
+        display: flex;
+    }
+
+    &__block {
+        &--about {
+            margin-right: 133px;
+        }
+
+        &--contact {
+            flex: 1 0 auto;
+        }
+    }
+
+    &__title {
+        font: 18px $OpenSansB;
+        text-transform: uppercase;
+        margin-bottom: 51px;
+    }
+
+    &__text {
+        font: 14px/22px $OpenSansR;
+        width: 470px;
+    }
+
+    &__content {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    &__sub-block {
+        width: 50%;
+        margin-bottom: 22px;
+    }
+
+    &__spans {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    &__span {
+        font: 14px/22px $OpenSansR;
+    }
+}

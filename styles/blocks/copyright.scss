@@ -1,0 +1,12 @@
+.copyright {
+    background: $blue;
+    padding: 40px 0 38px;
+
+    &__text {
+        color: $dimBlue;
+        width: 100%;
+        font: 16px $OpenSansR;
+        display: inline-block;
+        text-align: center;
+    }
+}

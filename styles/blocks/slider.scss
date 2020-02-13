@@ -1,6 +1,10 @@
 .slider {
     position: relative;
 
+    &--trainer {
+        margin-bottom: 201px;
+    }
+
     &__item {
         &--about-us {
             border-radius: 10px;
