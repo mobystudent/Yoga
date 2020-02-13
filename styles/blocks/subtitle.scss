@@ -1,0 +1,16 @@
+.subtitle {
+    &--page {
+        color: $white;
+        font-size: 40px;
+        font-family: $FreestyleR;
+    }
+
+    &--section {
+        font-size: 40px;
+        color: $semiGray;
+        font-family: $FreestyleR;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+    }
+}

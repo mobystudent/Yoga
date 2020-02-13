@@ -16,15 +16,10 @@
         border-radius: 20px;
         width: 300px;
         margin-right: 95px;
+        box-shadow: 8px 8px 10px 0 rgba(0,0,0,.15);
     }
 
-    &__title {
+    &__title-wrap {
         padding-bottom: 15px;
-    }
-
-    &__subtitle {
-        color: $white;
-        font-size: 40px;
-        font-family: $FreestyleR;
     }
 }

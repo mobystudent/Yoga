@@ -15,4 +15,13 @@
         text-transform: uppercase;
         margin-bottom: 25px;
     }
+
+    &--section {
+        font-size: 30px;
+        font-family: $OpenSansB;
+        color: $lightBlue;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 9px;
+    }
 }

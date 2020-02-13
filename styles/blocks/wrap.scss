@@ -1,0 +1,17 @@
+.wrap {
+    &--program {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    &--img {
+        width: 270px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        flex: 0 0 auto;
+    }
+}

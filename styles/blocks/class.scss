@@ -1,0 +1,50 @@
+.class {
+    display: flex;
+    width: 570px;
+    background: $white;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,.05);
+    margin-bottom: 25px;
+
+    &:first-child {
+        .img--class {
+            padding-right: 133px;
+        }
+    }
+
+    &:last-child {
+        .img--class {
+            padding-left: 133px;
+        }
+    }
+
+    &__title {
+        font-family: $OpenSansB;
+        font-size: 20px;
+        color: $semiGray;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+
+    &__descrip {
+        font-size: 14px;
+        line-height: 22px;
+        font-family: $OpenSansR;
+        color: $mediumGray;
+        margin-bottom: 7px;
+        max-width: 222px;
+    }
+
+    &__info {
+        padding: 43px 30px;
+    }
+
+    &__span {
+        font-size: 14px;
+        line-height: 22px;
+        font-family: $OpenSansR;
+        color: $lightGray;
+    }
+}
