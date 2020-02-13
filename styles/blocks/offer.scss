@@ -1,0 +1,65 @@
+.offer {
+    width: 370px;
+    padding-bottom: 51px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 3px 50px 0 rgba(0,0,0,.1);
+
+    &__header {
+        background: $lightBlue;
+        padding: 27px 0 31px 139px;
+    }
+
+    &__price {
+        font-family: $OpenSansB;
+        font-size: 67px;
+        color: $white;
+        position: relative;
+        padding-right: 5px;
+
+        &:before {
+            content: '\0024';
+            position: absolute;
+            top: 25px;
+            left: -46px;
+            color: $white;
+            transform: scale(.48) translateY(-50%);
+        }
+    }
+
+    &__duration {
+        color: $white;
+        font-family: $OpenSansB;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    &__content {
+        padding: 44px 72px;
+    }
+
+    &__text {
+        color: $mediumGray;
+        font-size: 18px;
+        font-family: $OpenSansR;
+        position: relative;
+        display: inline-block;
+        text-transform: uppercase;
+        margin-bottom: 41px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:not(:last-child):before {
+            content: '';
+            position: absolute;
+            bottom: -22px;
+            left: 50%;
+            height: 1px;
+            width: 99px;
+            transform: translateX(-50%);
+            background: $preGray;
+        }
+    }
+}

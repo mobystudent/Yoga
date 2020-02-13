@@ -1,0 +1,9 @@
+.payment {
+    margin-bottom: 107px;
+    
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0 0;
+    }
+}

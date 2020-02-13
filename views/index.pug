@@ -98,3 +98,22 @@ block content
                      section.benefit__icon
                      h3.benefit__title LOWER BLOOD <br> PRESSURE
                      p.benefit__text Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.
+                     
+         article.payment
+            section.container
+               section.payment__wrap
+                  
+                  - const price = ['49', '69', '99'];
+                  - const duration = ['MON – FRI', 'MON – FRI', 'MON – SUN'];
+                  - const advisor = ['no', 'yes', 'yes'];
+                  - for (let i = 0; i < 3; i++)
+                  
+                     article.offer
+                        header.offer__header
+                           span.offer__price=price[i]
+                           span.offer__duration / month
+                        section.offer__content
+                           span.offer__text ENTRY DATE: #{duration[i]}
+                           span.offer__text ENTRY TIME: 8A.M – 8P.M
+                           span.offer__text NUTRITION ADVICER: #{advisor[i]}
+                        a.btn.btn--offer Buy now
