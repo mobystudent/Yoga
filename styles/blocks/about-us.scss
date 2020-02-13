@@ -1,0 +1,25 @@
+.about-us {
+    &__title {
+        font-family: $OpenSansB;
+        font-size: 30px;
+        color: $lightBlue;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+
+    &__descrip {
+        font-family: $OpenSansR;
+        color: $mediumGray;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    &__data {
+        margin-right: 130px;
+        padding-top: 13px;
+    }
+
+    &__wrap {
+        display: flex;
+    }
+}
