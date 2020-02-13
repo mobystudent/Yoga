@@ -15,10 +15,10 @@ block content
                      form.form
                         h2.title.title--form Trial Class
                         section.form__inputs
-                           label.label.label--trial.form__item
-                              input.input.input--trial(type="text" placeholder="Enter your name")
-                           label.label.label--trial.form__item
-                              input.input.input--trial(type="tel" placeholder="Enter your phone")
+                           label.label.label--trial.form__item(for="name")
+                              input.input.input--trial(type="text" placeholder="Enter your name" id="name")
+                           label.label.label--trial.form__item(for="phone")
+                              input.input.input--trial(type="tel" placeholder="Enter your phone" id="phone")
                            section.select.select--trial.form__item
                               span.select__item Chose your class
                            button.btn.btn--form-trial Try it
@@ -36,9 +36,16 @@ block content
                   - const classTitle = ['Yoga For Health', 'Yoga For Lose Weight', 'Yoga For Children', 'Yoga For Elderly'];
                   - for (let i = 0; i < classTitle.length; i++)
                      article.class
-                        section.wrap.wrap--img
+                        section.wrap.wrap--img-class
                            img.img.img--class(src=`../img/class-${i+1}.jpg` alt=`class-${i+1}`)
                         section.class__info
                            h3.class__title=classTitle[i]
                            p.class__descrip Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.
                            span.class__span Ashtanga - Hatha
+                           
+         article.gallery
+            
+            - for (let i = 0; i < 8; i++)
+            
+               a.wrap.wrap--img-photo(href="#")
+                  img.img.img--photo(src=`../img/photo-${i+1}.jpg` alt=`photo-${i+1}`)

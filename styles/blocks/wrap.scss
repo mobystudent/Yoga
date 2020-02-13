@@ -6,12 +6,43 @@
     }
 
     &--img {
-        width: 270px;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        flex: 0 0 auto;
+        &-class {
+            width: 270px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            flex: 0 0 auto;
+        }
+
+        &-photo {
+            display: flex;
+            position: relative;
+
+            &:hover {
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(91,108,235,.85);
+                }
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    width: 57px;
+                    height: 57px;
+                    transform: translate(-50%, -50%);
+                    background: $white;
+                    border-radius: 50%;
+                }
+            }
+        }
     }
 }
