@@ -57,9 +57,9 @@ block content
                      h3.about-us__title About us
                      p.about-us__descrip Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor it in lorei voluptate velit esse cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.
                   section.slider.slider--about-us
-                     section.slider__item
+                     section.slider__item.slider__item--about-us
                         img.img.img--slider(src="../img/slide-1.jpg" alt="slide-1")
-                     section.slider__control
+                     section.slider__control.slider__control--about-us
                         span.slider__arrow.slider__arrow--prev
                         span.slider__arrow.slider__arrow--next
                            
@@ -117,3 +117,35 @@ block content
                            span.offer__text ENTRY TIME: 8A.M – 8P.M
                            span.offer__text NUTRITION ADVICER: #{advisor[i]}
                         a.btn.btn--offer Buy now
+                        
+         article.slider.slider--trainer
+            section.container
+               section.slider__wrap
+                  section.slider__content
+                     section.slider__item.slider__item--trainer
+                        section.slider__avatar.slider__avatar--main
+                           article.wrap.wrap--img-avatar(href="#")
+                              img.img.img--avatar(src='../img/avatar.jpg' alt='avatar')
+                        section.slider__info
+                           blockquote.slider__quote Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.
+                           section.slider__data
+                              span.slider__span.slider__span--pos Trainer
+                              span.slider__span.slider__span--name Laura Shepard
+                              
+                  section.slider__control.slider__control--trainer
+                     span.slider__point
+                     span.slider__point.slider__point--active
+                     span.slider__point
+                     span.slider__point
+                        
+                  section.slider__subview
+                     section.slider__avatar.slider__avatar--sub
+                        article.wrap.wrap--img-avatar.wrap--img-avatar-sub(href="#")
+                           img.img.img--avatar(src='../img/avatar-2.png' alt='avatar-2')
+                     section.slider__data
+                        span.slider__span.slider__span--name.slider__span--name-sub Sara Taylor
+                        span.slider__span.slider__span--pos.slider__span--pos-sub Trainer
+                        
+                     section.slider__control.slider__control--sub
+                        span.slider__arrow.slider__arrow--prev.slider__arrow--sub
+                        span.slider__arrow.slider__arrow--next.slider__arrow--sub

@@ -46,6 +46,7 @@
         display: inline-block;
         text-transform: uppercase;
         margin-bottom: 41px;
+        width: 100%;
 
         &:last-child {
             margin-bottom: 0;
@@ -60,6 +61,10 @@
             width: 99px;
             transform: translateX(-50%);
             background: $preGray;
+        }
+
+        &:nth-child(2):before {
+            bottom: -18px;
         }
     }
 }

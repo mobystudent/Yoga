@@ -44,5 +44,21 @@
                 }
             }
         }
+
+        &-avatar {
+            width: 125px;
+            height: 125px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            flex: 0 0 auto;
+            position: relative;
+
+            &-sub {
+                width: 61px;
+                height: 61px;
+            }
+        }
     }
 }
