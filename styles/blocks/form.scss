@@ -1,0 +1,9 @@
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+
+    &__inputs {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+}

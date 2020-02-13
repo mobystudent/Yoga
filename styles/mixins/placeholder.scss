@@ -1,20 +1,20 @@
-@mixin placeholder($font-size, $color) {
+@mixin placeholder($font-size, $font-family, $color) {
     &::placeholder {
         color: $color;
         opacity: 1;
-        font: 400 $font-size "Open Sans", sans-serif;
+        font: $font-size $font-family, sans-serif;
     }
 
     &::-ms-placeholder {
         color: $color;
         opacity: 1;
-        font: 400 $font-size "Open Sans", sans-serif;
+        font: $font-size $font-family, sans-serif;
     }
 
     &:-ms-input-placeholder {
         color: $color;
         opacity: 1;
-        font: 400 $font-size "Open Sans", sans-serif;
+        font: $font-size $font-family, sans-serif;
     }
 
     &:focus:placeholder {

@@ -1,0 +1,10 @@
+.input {
+    &--trial {
+        width: 100%;
+        background: $dimWhite;
+        border-radius: 10px;
+        padding: 18px 10px;
+        max-height: 50px;
+        @include placeholder(14px, $OpenSansR, $midGray);
+    }
+}

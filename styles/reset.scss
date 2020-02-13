@@ -28,7 +28,7 @@ ul,li{
     list-style: none;
 }
 
-blockquote, q{
+blockquote, q {
     quotes: none;
 
     &:before, &:after {
@@ -37,9 +37,10 @@ blockquote, q{
     }
 }
 
-input, textarea {
+input, textarea, select {
     padding: 0;
     margin: 0;
+    border: none;
 
     &:focus{
         outline: 0 !important;
@@ -70,12 +71,12 @@ th {
 }
 
 .row,p {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 a {
-    display:block
+    display: block;
 }
 
 a,a:focus,a:hover,a:active {
@@ -83,7 +84,7 @@ a,a:focus,a:hover,a:active {
     text-decoration: none;
 }
 
-button{
+button {
     border: none;
     cursor: pointer;
     background-color: transparent;

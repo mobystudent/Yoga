@@ -1,0 +1,18 @@
+.title {
+    &--form {
+        color: $blue;
+        font-family: $OpenSansSB;
+        font-size: 26px;
+        padding-left: 4px;
+        margin-bottom: 22px;
+    }
+
+    &--page {
+        color: $white;
+        font-size: 48px;
+        line-height: 72px;
+        font-family: $OpenSansB;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+}

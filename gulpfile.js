@@ -44,6 +44,11 @@ gulp.task('images', () => {
         .pipe(gulp.dest('build/img'))
 });
 
+gulp.task('fonts', () => {
+    return gulp.src('fonts/*')
+        .pipe(gulp.dest('build/fonts'))
+});
+
 gulp.task('watch', () => {
     browserSync.init({
         server: "./build"
@@ -52,6 +57,7 @@ gulp.task('watch', () => {
     gulp.watch('images/**', gulp.series('images'));
     gulp.watch('styles/**/*.scss', gulp.series('styles'));
     gulp.watch('views/**/*.pug', gulp.series('views'));
+    gulp.watch('fonts/**', gulp.series('fonts'));
 });
 
-gulp.task('build', gulp.series(gulp.parallel('images', 'styles', 'views'), 'watch'));
+gulp.task('build', gulp.series(gulp.parallel('images', 'styles', 'fonts', 'views'), 'watch'));

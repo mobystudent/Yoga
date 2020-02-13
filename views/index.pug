@@ -4,5 +4,24 @@ block title
    title Yoga
    
 block content
-   article.wrapper.display--fl.fl--col-nowr
+   article.wrapper
       include includes/header.pug
+         
+      main.content
+         article.preview
+            section.container
+               section.preview__wrap
+                  section.preview__form
+                     form.form
+                        h2.title.title--form Trial Class
+                        section.form__inputs
+                           label.label.label--trial.form__item
+                              input.input.input--trial(type="text" placeholder="Enter your name")
+                           label.label.label--trial.form__item
+                              input.input.input--trial(type="tel" placeholder="Enter your phone")
+                           section.select.select--trial.form__item
+                              span.select__item Chose your class
+                           button.btn.btn--form-trial Try it
+                  section.preview__title
+                     h1.title.title--page Just Balance <br> your Mind & Body
+                     span.preview__subtitle Create the healthy living <br> for yourself

@@ -8,7 +8,7 @@
     }
 
     &__li {
-        margin-right: 28px;
+        margin-right: 29px;
 
         &:last-child {
             margin-right: 0;
@@ -20,7 +20,6 @@
         color: $deepGray;
         position: relative;
         font-family: $OpenSansSB;
-        letter-spacing: .04em;
 
         &--active {
             color: $blue;

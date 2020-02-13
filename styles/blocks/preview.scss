@@ -1,0 +1,30 @@
+.preview {
+    background: url("../img/bg-preview.jpg") no-repeat;
+    background-size: cover;
+    padding: 100px 0 110px;
+
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 185px;
+    }
+
+    &__form {
+        background: $white;
+        padding: 32px 40px 34px 30px;
+        border-radius: 20px;
+        width: 300px;
+        margin-right: 95px;
+    }
+
+    &__title {
+        padding-bottom: 15px;
+    }
+
+    &__subtitle {
+        color: $white;
+        font-size: 40px;
+        font-family: $FreestyleR;
+    }
+}
