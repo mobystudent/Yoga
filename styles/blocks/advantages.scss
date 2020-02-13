@@ -1,0 +1,11 @@
+.advantages {
+    background: url("../img/bg-advantages.jpg") no-repeat;
+    background-size: cover;
+    padding: 125px 0 77px;
+
+    &__wrap {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+}

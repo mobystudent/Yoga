@@ -1,0 +1,35 @@
+.benefit {
+    width: 270px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 55px;
+
+    &__icon {
+        border: 2px solid $white;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        margin-bottom: 28px;
+    }
+
+    &__title {
+        color: $white;
+        font-family: $OpenSansB;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        margin-bottom: 13px;
+        text-transform: uppercase;
+        flex: 1 0 auto;
+    }
+
+    &__text {
+        color: $white;
+        font-family: $OpenSansR;
+        font-size: 16px;
+        line-height: 27px;
+        text-align: center;
+    }
+}
