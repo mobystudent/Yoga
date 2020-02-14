@@ -1,5 +1,5 @@
 .about-us {
-    padding: 125px 0;
+    padding: 123px 0 125px;
 
     @media screen and (max-width: 1365px) {
         padding: 100px 0;
@@ -12,6 +12,11 @@
     &__descrip {
         color: $mediumGray;
         font: 14px/22px $OpenSansR;
+
+        @media screen and (max-width: 579px) {
+            font-size: 13px;
+            line-height: 20px;
+        }
     }
 
     &__data {
@@ -30,6 +35,10 @@
         @media screen and (max-width: 767px) {
             margin: 0 60px 35px 0;
         }
+
+        @media screen and (max-width: 579px) {
+            margin: 0 0 30px 0;
+        }
     }
 
     &__wrap {
@@ -42,6 +51,10 @@
         @media screen and (max-width: 1023px) {
             flex-flow: column nowrap;
             align-items: center;
+        }
+
+        @media screen and (max-width: 579px) {
+            padding: 0 15px;
         }
     }
 }

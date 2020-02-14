@@ -2,6 +2,10 @@
     display: flex;
     align-items: center;
 
+    @media screen and (max-width: 579px) {
+        display: none;
+    }
+
     &__ul {
         display: flex;
         margin-bottom: 7px;

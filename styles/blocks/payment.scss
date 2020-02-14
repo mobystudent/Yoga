@@ -9,6 +9,10 @@
         padding: 75px 0;
     }
 
+    @media screen and (max-width: 579px) {
+        padding: 60px 0;
+    }
+
     &__wrap {
         display: flex;
         justify-content: space-between;

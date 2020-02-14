@@ -20,6 +20,11 @@
         width: 100%;
     }
 
+    @media screen and (max-width: 579px) {
+        flex-flow: column nowrap;
+        max-width: 330px;
+    }
+
     &__header {
         background: $lightBlue;
         padding: 27px 0 31px 139px;

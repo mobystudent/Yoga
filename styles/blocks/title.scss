@@ -62,6 +62,10 @@
             font-size: 24px;
         }
 
+        @media screen and (max-width: 579px) {
+            font-size: 22px;
+        }
+
         &-c {
             text-align: center;
             margin-bottom: 9px;
@@ -76,6 +80,10 @@
 
             @media screen and (max-width: 1365px) {
                 margin-bottom: 12px;
+            }
+
+            @media screen and (max-width: 579px) {
+                margin-bottom: 10px;
             }
         }
     }

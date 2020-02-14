@@ -1,9 +1,25 @@
 .header {
     padding: 13px 58px 9px 0;
 
+    @media screen and (max-width: 1365px) {
+        padding: 13px 0 9px 0;
+    }
+
+    @media screen and (max-width: 579px) {
+        padding: 9px 0;
+    }
+
     &__wrap {
         display: flex;
         justify-content: center;
         padding-right: 7px;
+
+        @media screen and (max-width: 1365px) {
+            padding-left: 0;
+        }
+
+        @media screen and (max-width: 579px) {
+            justify-content: space-between;
+        }
     }
 }

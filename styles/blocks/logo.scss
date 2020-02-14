@@ -16,4 +16,8 @@
         margin: 0 50px;
         width: 50px;
     }
+
+    @media screen and (max-width: 579px) {
+        margin: 0;
+    }
 }

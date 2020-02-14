@@ -64,5 +64,9 @@
             padding: 10px 15px;
             min-width: 120px;
         }
+
+        @media screen and (max-width: 579px) {
+            margin: 0 auto 25px;
+        }
     }
 }

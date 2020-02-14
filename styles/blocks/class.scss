@@ -21,6 +21,11 @@
         width: 460px;
     }
 
+    @media screen and (max-width: 579px) {
+        flex-flow: column nowrap;
+        max-width: 280px;
+    }
+
     &:first-child {
         .img--class {
             padding-right: 133px;
@@ -60,22 +65,31 @@
             font-size: 18px;
             margin-bottom: 20px;
         }
+
+        @media screen and (max-width: 579px) {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
     }
 
     &__descrip {
         font: 14px/22px $OpenSansR;
         color: $mediumGray;
-        margin-bottom: 7px;
+        margin-bottom: 9px;
         max-width: 222px;
 
         @media screen and (max-width: 767px) {
             font-size: 13px;
             line-height: 20px;
         }
+
+        @media screen and (max-width: 579px) {
+            max-width: 220px;
+        }
     }
 
     &__info {
-        padding: 43px 30px;
+        padding: 43px 30px 46px;
 
         @media screen and (max-width: 1365px) {
             padding: 30px 20px;
