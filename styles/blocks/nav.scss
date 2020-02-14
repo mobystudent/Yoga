@@ -10,17 +10,24 @@
     &__li {
         margin-right: 29px;
 
+        @media screen and (max-width: 1023px) {
+            margin-right: 25px;
+        }
+
         &:last-child {
             margin-right: 0;
         }
     }
 
     &__link {
-        font-size: 14px;
         color: $deepGray;
         position: relative;
-        font-family: $OpenSansSB;
-        transition: color .5s ease-in;
+        font: 14px $OpenSansSB;
+        transition: color .25s ease-in;
+
+        @media screen and (max-width: 1023px) {
+            font-size: 12px;
+        }
 
         &:hover {
             color: $blue;

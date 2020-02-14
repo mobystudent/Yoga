@@ -18,12 +18,20 @@
             @media screen and (max-width: 1365px) {
                 width: 230px;
             }
+
+            @media screen and (max-width: 1023px) {
+                width: 250px;
+            }
         }
 
         &-photo {
             display: flex;
             position: relative;
             width: 25%;
+
+            @media screen and (max-width: 1023px) {
+                width: 40%;
+            }
 
             &:hover {
                 &:before {
@@ -52,19 +60,33 @@
         }
 
         &-avatar {
-            width: 125px;
-            height: 125px;
             border-radius: 50%;
             overflow: hidden;
             display: flex;
             justify-content: center;
             flex: 0 0 auto;
             position: relative;
+        }
 
-            &-sub {
-                width: 61px;
-                height: 61px;
+        &-trainer {
+            width: 125px;
+            height: 125px;
+            margin: 4px 57px 0 0;
+            box-shadow: 0 0 0 9px $white, 0 0 0 11px $preGray;
+
+            @media screen and (max-width: 1023px) {
+                margin: 4px 40px 0 0;
+                width: 100px;
+                height: 100px;
+                box-shadow: 0 0 0 7px $white, 0 0 0 9px $preGray;
             }
+        }
+
+        &-sub {
+            width: 61px;
+            height: 61px;
+            margin-right: 16px;
+            box-shadow: 0 0 0 3px $white, 0 0 0 5px $preGray;
         }
     }
 }

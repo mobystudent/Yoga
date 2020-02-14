@@ -1,13 +1,19 @@
 .offer {
     width: 370px;
-    padding-bottom: 51px;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 3px 3px 50px 0 rgba(0,0,0,.1);
 
     @media screen and (max-width: 1365px) {
         width: 320px;
-        padding-bottom: 45px;
+    }
+
+    @media screen and (max-width: 1023px) {
+        display: flex;
+        align-items: center;
+        flex-flow: row nowrap;
+        width: 580px;
+        margin: 0 auto 25px;
     }
 
     &__header {
@@ -16,6 +22,13 @@
 
         @media screen and (max-width: 1365px) {
             padding: 25px 0 25px 95px;
+        }
+
+        @media screen and (max-width: 1023px) {
+            padding: 25px 25px 25px 60px;
+            align-self: stretch;
+            display: flex;
+            align-items: center;
         }
     }
 
@@ -29,6 +42,10 @@
             font-size: 60px;
         }
 
+        @media screen and (max-width: 1023px) {
+            font-size: 50px;
+        }
+
         &:before {
             content: '\0024';
             position: absolute;
@@ -39,6 +56,11 @@
 
             @media screen and (max-width: 1365px) {
                 left: -36px;
+            }
+
+            @media screen and (max-width: 1023px) {
+                top: 20px;
+                left: -30px;
             }
         }
     }
@@ -51,6 +73,10 @@
         @media screen and (max-width: 1365px) {
             font-size: 16px;
         }
+
+        @media screen and (max-width: 1023px) {
+            font-size: 14px;
+        }
     }
 
     &__content {
@@ -58,6 +84,10 @@
 
         @media screen and (max-width: 1365px) {
             padding: 40px;
+        }
+
+        @media screen and (max-width: 1023px) {
+            padding: 30px 25px;
         }
     }
 
@@ -75,6 +105,11 @@
             margin-bottom: 38px;
         }
 
+        @media screen and (max-width: 1023px) {
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
         &:last-child {
             margin-bottom: 0;
         }
@@ -88,6 +123,10 @@
             width: 99px;
             transform: translateX(-50%);
             background: $preGray;
+
+            @media screen and (max-width: 1023px) {
+                bottom: -15px;
+            }
         }
 
         &:nth-child(2):before {

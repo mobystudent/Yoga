@@ -4,7 +4,12 @@
     @media screen and (max-width: 1365px) {
         font-size: 38px;
     }
-    
+
+    @media screen and (max-width: 1023px) {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
     &--page {
         color: $white;
     }

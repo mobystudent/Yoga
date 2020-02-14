@@ -12,15 +12,28 @@
         margin-bottom: 20px;
     }
 
+    @media screen and (max-width: 1023px) {
+        width: 540px;
+        margin: 0 auto 20px;
+    }
+
     &:first-child {
         .img--class {
             padding-right: 133px;
+
+            @media screen and (max-width: 1023px) {
+                padding-right: 110px;
+            }
         }
     }
 
     &:last-child {
         .img--class {
             padding-left: 133px;
+
+            @media screen and (max-width: 1023px) {
+                padding-left: 110px;
+            }
         }
     }
 
@@ -51,6 +64,10 @@
 
         @media screen and (max-width: 1365px) {
             padding: 30px 20px;
+        }
+
+        @media screen and (max-width: 1023px) {
+            padding: 20px 30px;
         }
     }
 

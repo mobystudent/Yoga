@@ -10,12 +10,24 @@
         padding: 15px 10px;
     }
 
+    @media screen and (max-width: 1023px) {
+        padding: 14px 10px;
+    }
+
     &--trial {
         margin-bottom: 32px;
+
+        @media screen and (max-width: 1023px) {
+            margin-bottom: 25px;
+        }
     }
 
     &__item {
         color: $midGray;
         font: 14px $OpenSansR;
+
+        @media screen and (max-width: 1023px) {
+            font-size: 13px;
+        }
     }
 }

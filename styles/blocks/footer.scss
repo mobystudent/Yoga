@@ -7,6 +7,10 @@
         padding-bottom: 70px;
     }
 
+    @media screen and (max-width: 1023px) {
+        padding-bottom: 50px;
+    }
+
     &__wrap {
         padding: 95px 0 24px;
         display: flex;
@@ -14,13 +18,29 @@
         @media screen and (max-width: 1365px) {
             padding: 75px 0 15px;
         }
+
+        @media screen and (max-width: 1023px) {
+            padding: 50px 0 15px;
+        }
     }
 
     &__block {
         width: 50%;
 
         &--about {
-            margin-right: 33px;
+            @media screen and (max-width: 1023px) {
+                width: 60%;
+                margin-right: 0;
+                padding-right: 40px;
+            }
+        }
+
+        &--contact {
+            margin-left: 33px;
+
+            @media screen and (max-width: 1023px) {
+                width: 40%;
+            }
         }
     }
 
@@ -32,6 +52,10 @@
         @media screen and (max-width: 1365px) {
             margin-bottom: 40px;
             font-size: 16px;
+        }
+
+        @media screen and (max-width: 1023px) {
+            margin-bottom: 25px;
         }
     }
 
@@ -58,6 +82,11 @@
         @media screen and (max-width: 1365px) {
             width: 240px;
             margin-bottom: 20px;
+        }
+
+        @media screen and (max-width: 1023px) {
+            margin-bottom: 10px;
+            width: 100%;
         }
     }
 
