@@ -3,9 +3,15 @@
 
     &--trainer {
         margin-bottom: 201px;
+
+        @media screen and (max-width: 1365px) {
+            margin-bottom: 175px;
+        }
     }
 
     &__item {
+        display: flex;
+
         &--about-us {
             border-radius: 10px;
             width: 570px;
@@ -13,7 +19,6 @@
             overflow: hidden;
             box-shadow: 4px 4px 15px 1px rgba(0,0,0,.15);
             position: relative;
-            display: flex;
             justify-content: center;
             align-items: center;
         }
@@ -22,7 +27,10 @@
             padding: 45px 75px 70px;
             border-radius: 10px;
             box-shadow: 4px 4px 15px 1px rgba(0,0,0,.15);
-            display: flex;
+
+            @media screen and (max-width: 1365px) {
+                padding: 45px 70px 65px;
+            }
         }
     }
 
@@ -45,6 +53,10 @@
             justify-content: center;
             height: 100%;
             padding-bottom: 7px;
+
+            @media screen and (max-width: 1365px) {
+                right: 15px;
+            }
         }
 
         &--sub {
@@ -123,6 +135,10 @@
         position: relative;
         max-width: 730px;
 
+        @media screen and (max-width: 1365px) {
+            padding: 0 30px 0 40px;
+        }
+
         &:before {
             content: '';
             position: absolute;
@@ -136,6 +152,12 @@
 
     &__wrap {
         position: relative;
+
+        &--trainer {
+            @media screen and (max-width: 1365px) {
+                padding: 0 70px 0 30px;
+            }
+        }
     }
 
     &__quote {
@@ -143,6 +165,10 @@
         font: italic 14px/22px $OpenSansI;
         position: relative;
         margin-bottom: 25px;
+
+        @media screen and (max-width: 1365px) {
+            margin-bottom: 20px;
+        }
 
         &:before, &:after {
             position: absolute;
@@ -160,6 +186,10 @@
             content: '\201d';
             bottom: -60px;
             right: -76px;
+
+            @media screen and (max-width: 1365px) {
+                right: -40px;
+            }
         }
     }
 

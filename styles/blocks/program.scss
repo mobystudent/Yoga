@@ -1,7 +1,15 @@
 .program {
     margin-bottom: 100px;
 
+    @media screen and (max-width: 1365px) {
+        margin-bottom: 80px;
+    }
+
     &__wrap {
         margin-bottom: 64px;
+
+        @media screen and (max-width: 1365px) {
+            margin-bottom: 50px;
+        }
     }
 }

@@ -1,14 +1,16 @@
 .subtitle {
+    font: 40px $FreestyleR;
+
+    @media screen and (max-width: 1365px) {
+        font-size: 38px;
+    }
+    
     &--page {
         color: $white;
-        font-size: 40px;
-        font-family: $FreestyleR;
     }
 
     &--section {
-        font-size: 40px;
         color: $semiGray;
-        font-family: $FreestyleR;
         text-align: center;
         width: 100%;
         display: inline-block;

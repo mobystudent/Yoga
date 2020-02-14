@@ -17,6 +17,10 @@
             font-size: 16px;
             padding: 14px 30px;
             min-width: 170px;
+
+            @media screen and (max-width: 1365px) {
+                font-size: 16px;
+            }
         }
     }
 
@@ -27,5 +31,9 @@
         font-size: 18px;
         margin: 0 auto;
         text-align: center;
+
+        @media screen and (max-width: 1365px) {
+            font-size: 16px;
+        }
     }
 }

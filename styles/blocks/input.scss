@@ -5,6 +5,12 @@
         border-radius: 10px;
         padding: 18px 10px;
         max-height: 50px;
+        color: $mediumGray;
+        font: 16px $OpenSansR;
         @include placeholder(14px, $OpenSansR, $midGray);
+
+        @media screen and (max-width: 1365px) {
+            padding: 16px 10px;
+        }
     }
 }

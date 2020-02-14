@@ -9,6 +9,10 @@
         position: absolute;
     }
 
+    &--photo {
+        height: 100%;
+    }
+
     &--avatar {
         position: absolute;
         width: auto;
@@ -17,34 +21,66 @@
     &--benefit {
         &-1 {
             width: 39px;
+
+            @media screen and (max-width: 1365px) {
+                width: 37px;
+            }
         }
 
         &-2 {
             width: 43px;
+
+            @media screen and (max-width: 1365px) {
+                width: 41px;
+            }
         }
 
         &-3 {
             width: 48px;
+
+            @media screen and (max-width: 1365px) {
+                width: 46px;
+            }
         }
 
         &-4 {
             width: 34px;
+
+            @media screen and (max-width: 1365px) {
+                width: 32px;
+            }
         }
 
         &-5 {
             width: 40px;
+
+            @media screen and (max-width: 1365px) {
+                width: 38px;
+            }
         }
 
         &-6 {
             width: 19px;
+
+            @media screen and (max-width: 1365px) {
+                width: 17px;
+            }
         }
 
         &-7 {
             width: 49px;
+
+            @media screen and (max-width: 1365px) {
+                width: 47px;
+            }
         }
 
         &-8 {
             width: 28px;
+
+            @media screen and (max-width: 1365px) {
+                width: 26px;
+            }
         }
     }
 }

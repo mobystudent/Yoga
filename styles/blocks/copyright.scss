@@ -2,11 +2,19 @@
     background: $blue;
     padding: 40px 0 38px;
 
+    @media screen and (max-width: 1365px) {
+        padding: 30px 0;
+    }
+
     &__text {
         color: $dimBlue;
         width: 100%;
         font: 16px $OpenSansR;
         display: inline-block;
         text-align: center;
+
+        @media screen and (max-width: 1365px) {
+            font-size: 14px;
+        }
     }
 }

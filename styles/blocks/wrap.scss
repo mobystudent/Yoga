@@ -14,11 +14,16 @@
             align-items: center;
             overflow: hidden;
             flex: 0 0 auto;
+
+            @media screen and (max-width: 1365px) {
+                width: 230px;
+            }
         }
 
         &-photo {
             display: flex;
             position: relative;
+            width: 25%;
 
             &:hover {
                 &:before {

@@ -1,27 +1,41 @@
 .about-us {
-    margin-bottom: 124px;
-    
+    padding: 125px 0;
+
+    @media screen and (max-width: 1365px) {
+        padding: 100px 0;
+    }
+
     &__title {
-        font-family: $OpenSansB;
-        font-size: 30px;
+        font: 30px $OpenSansB;
         color: $lightBlue;
         text-transform: uppercase;
         margin-bottom: 16px;
+
+        @media screen and (max-width: 1365px) {
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
     }
 
     &__descrip {
-        font-family: $OpenSansR;
         color: $mediumGray;
-        font-size: 14px;
-        line-height: 22px;
+        font: 14px/22px $OpenSansR;
     }
 
     &__data {
         margin-right: 130px;
-        padding-top: 13px;
+        padding-top: 14px;
+
+        @media screen and (max-width: 1365px) {
+            margin-right: 80px;
+        }
     }
 
     &__wrap {
         display: flex;
+
+        @media screen and (max-width: 1365px) {
+            padding: 0 30px;
+        }
     }
 }

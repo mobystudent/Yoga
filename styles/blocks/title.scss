@@ -1,27 +1,38 @@
 .title {
     &--form {
         color: $blue;
-        font-family: $OpenSansSB;
-        font-size: 26px;
+        font: 26px $OpenSansSB;
         padding-left: 4px;
         margin-bottom: 22px;
+
+        @media screen and (max-width: 1365px) {
+            font-size: 24px;
+            margin-bottom: 18px;
+        }
     }
 
     &--page {
         color: $white;
-        font-size: 48px;
-        line-height: 72px;
-        font-family: $OpenSansB;
+        font: 48px/72px $OpenSansB;
         text-transform: uppercase;
         margin-bottom: 25px;
+
+        @media screen and (max-width: 1365px) {
+            font-size: 44px;
+            line-height: 64px;
+        }
     }
 
     &--section {
-        font-size: 30px;
-        font-family: $OpenSansB;
+        font: 30px $OpenSansB;
         color: $lightBlue;
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 9px;
+
+        @media screen and (max-width: 1365px) {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
     }
 }

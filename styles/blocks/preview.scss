@@ -4,11 +4,20 @@
     padding: 100px 0 110px;
     margin-bottom: 114px;
 
+    @media screen and (max-width: 1365px) {
+        padding: 80px 0 90px;
+        margin-bottom: 85px;
+    }
+
     &__wrap {
         display: flex;
         align-items: center;
         justify-content: center;
         padding-left: 185px;
+
+        @media screen and (max-width: 1365px) {
+            padding-left: 85px;
+        }
     }
 
     &__form {
@@ -18,9 +27,17 @@
         width: 300px;
         margin-right: 95px;
         box-shadow: 8px 8px 10px 0 rgba(0,0,0,.15);
+
+        @media screen and (max-width: 1365px) {
+            margin-right: 85px;
+        }
     }
 
     &__title-wrap {
         padding-bottom: 15px;
+
+        @media screen and (max-width: 1365px) {
+            padding-bottom: 25px;
+        }
     }
 }

@@ -1,9 +1,12 @@
 .payment {
-    margin-bottom: 106px;
+    padding: 100px 0 106px;
+
+    @media screen and (max-width: 1365px) {
+        padding: 85px 0;
+    }
 
     &__wrap {
         display: flex;
         justify-content: space-between;
-        padding: 100px 0 0;
     }
 }

@@ -3,9 +3,17 @@
     color: $white;
     padding-bottom: 99px;
 
+    @media screen and (max-width: 1365px) {
+        padding-bottom: 70px;
+    }
+
     &__wrap {
         padding: 95px 0 24px;
         display: flex;
+
+        @media screen and (max-width: 1365px) {
+            padding: 75px 0 15px;
+        }
     }
 
     &__block {
@@ -20,11 +28,20 @@
         font: 18px $OpenSansB;
         text-transform: uppercase;
         margin-bottom: 51px;
+
+        @media screen and (max-width: 1365px) {
+            margin-bottom: 40px;
+            font-size: 16px;
+        }
     }
 
     &__text {
         font: 14px/22px $OpenSansR;
         width: 470px;
+
+        @media screen and (max-width: 1365px) {
+            width: 420px;
+        }
     }
 
     &__content {
@@ -37,6 +54,11 @@
         width: 265px;
         margin-bottom: 22px;
         display: flex;
+
+        @media screen and (max-width: 1365px) {
+            width: 240px;
+            margin-bottom: 20px;
+        }
     }
 
     &__spans {

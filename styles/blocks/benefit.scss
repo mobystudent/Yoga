@@ -5,6 +5,12 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 55px;
+    color: $white;
+
+    @media screen and (max-width: 1365px) {
+        width: 235px;
+        margin-bottom: 40px;
+    }
 
     &__icon {
         border: 2px solid $white;
@@ -15,24 +21,35 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media screen and (max-width: 1365px) {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 24px;
+        }
     }
 
     &__title {
-        color: $white;
-        font-family: $OpenSansB;
-        font-size: 18px;
-        line-height: 26px;
+        font: 18px/26px $OpenSansB;
         text-align: center;
         margin-bottom: 13px;
         text-transform: uppercase;
         flex: 1 0 auto;
+
+        @media screen and (max-width: 1365px) {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
     }
 
     &__text {
-        color: $white;
-        font-family: $OpenSansR;
-        font-size: 16px;
-        line-height: 27px;
+        font: 16px/27px $OpenSansR;
         text-align: center;
+
+        @media screen and (max-width: 1365px) {
+            font-size: 14px;
+            line-height: 24px;
+        }
     }
 }

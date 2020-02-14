@@ -3,6 +3,10 @@
     background-size: cover;
     padding: 125px 0 77px;
 
+    @media screen and (max-width: 1365px) {
+        padding: 100px 0 60px;
+    }
+
     &__wrap {
         display: flex;
         flex-flow: row wrap;

@@ -6,13 +6,16 @@
     max-height: 50px;
     cursor: pointer;
 
+    @media screen and (max-width: 1365px) {
+        padding: 15px 10px;
+    }
+
     &--trial {
         margin-bottom: 32px;
     }
 
     &__item {
         color: $midGray;
-        font-size: 14px;
-        font-family: $OpenSansR;
+        font: 14px $OpenSansR;
     }
 }

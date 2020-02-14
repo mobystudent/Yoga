@@ -5,17 +5,29 @@
     border-radius: 10px;
     box-shadow: 3px 3px 50px 0 rgba(0,0,0,.1);
 
+    @media screen and (max-width: 1365px) {
+        width: 320px;
+        padding-bottom: 45px;
+    }
+
     &__header {
         background: $lightBlue;
         padding: 27px 0 31px 139px;
+
+        @media screen and (max-width: 1365px) {
+            padding: 25px 0 25px 95px;
+        }
     }
 
     &__price {
-        font-family: $OpenSansB;
-        font-size: 67px;
+        font: 67px $OpenSansB;
         color: $white;
         position: relative;
         padding-right: 5px;
+
+        @media screen and (max-width: 1365px) {
+            font-size: 60px;
+        }
 
         &:before {
             content: '\0024';
@@ -24,29 +36,44 @@
             left: -46px;
             color: $white;
             transform: scale(.48) translateY(-50%);
+
+            @media screen and (max-width: 1365px) {
+                left: -36px;
+            }
         }
     }
 
     &__duration {
         color: $white;
-        font-family: $OpenSansB;
-        font-size: 18px;
+        font: 18px $OpenSansB;
         text-transform: uppercase;
+
+        @media screen and (max-width: 1365px) {
+            font-size: 16px;
+        }
     }
 
     &__content {
         padding: 44px 72px;
+
+        @media screen and (max-width: 1365px) {
+            padding: 40px;
+        }
     }
 
     &__text {
         color: $mediumGray;
-        font-size: 18px;
-        font-family: $OpenSansR;
+        font: 18px $OpenSansR;
         position: relative;
         display: inline-block;
         text-transform: uppercase;
         margin-bottom: 41px;
         width: 100%;
+
+        @media screen and (max-width: 1365px) {
+            font-size: 16px;
+            margin-bottom: 38px;
+        }
 
         &:last-child {
             margin-bottom: 0;
