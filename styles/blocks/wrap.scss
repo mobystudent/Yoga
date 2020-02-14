@@ -39,7 +39,8 @@
                     width: 57px;
                     height: 57px;
                     transform: translate(-50%, -50%);
-                    background: $white;
+                    background: url("../img/loupe.png") center no-repeat, $white;
+                    background-size: 24px;
                     border-radius: 50%;
                 }
             }

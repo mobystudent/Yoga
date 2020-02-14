@@ -57,10 +57,21 @@
     }
 
     &__arrow {
-        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 50%;
         background: $white;
         cursor: pointer;
+        transition: box-shadow .25s ease-in;
+
+        &:hover {
+            box-shadow: 0 0 0 2px $lightBlue;
+        }
+
+        &--prev {
+            transform: rotate(-180deg);
+        }
 
         &--about-us {
             width: 50px;
@@ -184,6 +195,11 @@
         margin-bottom: 18px;
         position: relative;
         cursor: pointer;
+        transition: border-color .25s ease-in;
+
+        &:hover {
+            border-color: $lightBlue;
+        }
 
         &--active {
             border-color: $lightBlue;

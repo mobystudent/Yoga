@@ -1,0 +1,20 @@
+.social {
+    display: flex;
+
+    &__link {
+        cursor: pointer;
+        margin-right: 15px;
+
+        &:nth-child(2) {
+            margin-right: 20px;
+        }
+
+        &:nth-child(3) {
+            margin-right: 24px;
+        }
+
+        &:nth-child(4) {
+            margin-right: 18px;
+        }
+    }
+}

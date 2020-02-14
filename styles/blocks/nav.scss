@@ -20,6 +20,11 @@
         color: $deepGray;
         position: relative;
         font-family: $OpenSansSB;
+        transition: color .5s ease-in;
+
+        &:hover {
+            color: $blue;
+        }
 
         &--active {
             color: $blue;

@@ -12,6 +12,9 @@
         width: 70px;
         height: 70px;
         margin-bottom: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     &__title {

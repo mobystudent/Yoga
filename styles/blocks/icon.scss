@@ -1,0 +1,72 @@
+.icon {
+    &--pointer {
+        width: 16px;
+        height: 21px;
+        margin: 5px 18px 0 0;
+    }
+
+    &--envelope {
+        width: 21px;
+        height: 13px;
+        margin: 5px 11px 0 0;
+    }
+
+    &--phone {
+        width: 21px;
+        height: 21px;
+        margin: 6px 14px 0 0;
+    }
+
+    &--world {
+        width: 21px;
+        height: 21px;
+        margin: 2px 12px 0 0;
+    }
+
+    &--pinterest {
+        height: 21px;
+        width: 18px;
+    }
+
+    &--twitter {
+        height: 21px;
+        width: 25px;
+    }
+
+    &--facebook {
+        height: 21px;
+        width: 11px;
+    }
+
+    &--google {
+        height: 21px;
+        width: 18px;
+    }
+
+    &--insta {
+        width: 21px;
+        height: 21px;
+    }
+
+    &--arrow {
+        &-sub {
+            width: 7px;
+            height: 11px;
+        }
+
+        &-about {
+            width: 12px;
+            height: 19px;
+        }
+    }
+
+    &__item {
+        &--footer {
+            fill: $white;
+        }
+
+        &--slider {
+            fill: $lightBlue;
+        }
+    }
+}

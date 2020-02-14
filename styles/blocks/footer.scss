@@ -1,19 +1,18 @@
 .footer {
     background: $lightBlue;
     color: $white;
+    padding-bottom: 99px;
 
     &__wrap {
-        padding-top: 95px;
+        padding: 95px 0 24px;
         display: flex;
     }
 
     &__block {
-        &--about {
-            margin-right: 133px;
-        }
+        width: 50%;
 
-        &--contact {
-            flex: 1 0 auto;
+        &--about {
+            margin-right: 33px;
         }
     }
 
@@ -31,11 +30,13 @@
     &__content {
         display: flex;
         flex-flow: row wrap;
+        justify-content: space-between;
     }
 
     &__sub-block {
-        width: 50%;
+        width: 265px;
         margin-bottom: 22px;
+        display: flex;
     }
 
     &__spans {
@@ -43,7 +44,9 @@
         flex-flow: column nowrap;
     }
 
-    &__span {
+    &__span,
+    &__link {
+        color: $white;
         font: 14px/22px $OpenSansR;
     }
 }

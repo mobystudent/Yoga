@@ -13,4 +13,38 @@
         position: absolute;
         width: auto;
     }
+
+    &--benefit {
+        &-1 {
+            width: 39px;
+        }
+
+        &-2 {
+            width: 43px;
+        }
+
+        &-3 {
+            width: 48px;
+        }
+
+        &-4 {
+            width: 34px;
+        }
+
+        &-5 {
+            width: 40px;
+        }
+
+        &-6 {
+            width: 19px;
+        }
+
+        &-7 {
+            width: 49px;
+        }
+
+        &-8 {
+            width: 28px;
+        }
+    }
 }
