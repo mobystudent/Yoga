@@ -18,5 +18,11 @@
             font-size: 14px;
             @include placeholder(13px, $OpenSansR, $midGray);
         }
+
+        @media screen and (max-width: 767px) {
+            padding: 10px;
+            font-size: 12px;
+            @include placeholder(13px, $OpenSansR, $midGray);
+        }
     }
 }

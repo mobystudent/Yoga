@@ -17,6 +17,10 @@
         margin: 0 20px 40px;
     }
 
+    @media screen and (max-width: 767px) {
+        margin: 0 10px 30px;
+    }
+
     &__icon {
         border: 2px solid $white;
         border-radius: 50%;

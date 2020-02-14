@@ -9,6 +9,10 @@
         padding: 65px 0;
     }
 
+    @media screen and (max-width: 767px) {
+        padding: 55px 0;
+    }
+
     &__wrap {
         margin-bottom: 64px;
 

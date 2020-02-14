@@ -3,60 +3,115 @@
         width: 16px;
         height: 21px;
         margin: 5px 18px 0 0;
+
+        @media screen and (max-width: 767px) {
+            height: 19px;
+            width: 14px;
+        }
     }
 
     &--envelope {
         width: 21px;
         height: 13px;
         margin: 5px 11px 0 0;
+
+        @media screen and (max-width: 767px) {
+            width: 19px;
+            height: 11px;
+        }
     }
 
     &--phone {
         width: 21px;
         height: 21px;
         margin: 6px 14px 0 0;
+
+        @media screen and (max-width: 767px) {
+            width: 19px;
+            height: 19px;
+        }
     }
 
     &--world {
         width: 21px;
         height: 21px;
         margin: 2px 12px 0 0;
+
+        @media screen and (max-width: 767px) {
+            width: 19px;
+            height: 19px;
+        }
     }
 
     &--pinterest {
         height: 21px;
         width: 18px;
+
+        @media screen and (max-width: 767px) {
+            height: 19px;
+            width: 16px;
+        }
     }
 
     &--twitter {
         height: 21px;
         width: 25px;
+
+        @media screen and (max-width: 767px) {
+            height: 19px;
+            width: 23px;
+        }
     }
 
     &--facebook {
         height: 21px;
         width: 11px;
+
+        @media screen and (max-width: 767px) {
+            height: 19px;
+            width: 9px;
+        }
     }
 
     &--google {
         height: 21px;
         width: 18px;
+
+        @media screen and (max-width: 767px) {
+            height: 19px;
+            width: 16px;
+        }
     }
 
     &--insta {
         width: 21px;
         height: 21px;
+
+        @media screen and (max-width: 767px) {
+            width: 19px;
+            height: 19px;
+        }
     }
 
     &--arrow {
         &-sub {
             width: 7px;
             height: 11px;
+
+            @media screen and (max-width: 767px) {
+                width: 5px;
+                height: 9px;
+            }
         }
 
         &-about {
             width: 12px;
             height: 19px;
+
+            @media screen and (max-width: 767px) {
+                width: 10px;
+                height: 17px;
+            }
         }
     }
 

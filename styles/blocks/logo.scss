@@ -11,4 +11,9 @@
         margin: 0 80px;
         width: 54px;
     }
+
+    @media screen and (max-width: 767px) {
+        margin: 0 50px;
+        width: 50px;
+    }
 }

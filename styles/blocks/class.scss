@@ -17,12 +17,20 @@
         margin: 0 auto 20px;
     }
 
+    @media screen and (max-width: 767px) {
+        width: 460px;
+    }
+
     &:first-child {
         .img--class {
             padding-right: 133px;
 
             @media screen and (max-width: 1023px) {
                 padding-right: 110px;
+            }
+
+            @media screen and (max-width: 767px) {
+                padding-right: 0;
             }
         }
     }
@@ -33,6 +41,10 @@
 
             @media screen and (max-width: 1023px) {
                 padding-left: 110px;
+            }
+
+            @media screen and (max-width: 767px) {
+                padding-left: 0;
             }
         }
     }
@@ -51,12 +63,15 @@
     }
 
     &__descrip {
-        font-size: 14px;
-        line-height: 22px;
-        font-family: $OpenSansR;
+        font: 14px/22px $OpenSansR;
         color: $mediumGray;
         margin-bottom: 7px;
         max-width: 222px;
+
+        @media screen and (max-width: 767px) {
+            font-size: 13px;
+            line-height: 20px;
+        }
     }
 
     &__info {
@@ -69,12 +84,18 @@
         @media screen and (max-width: 1023px) {
             padding: 20px 30px;
         }
+
+        @media screen and (max-width: 767px) {
+            padding: 15px 20px;
+        }
     }
 
     &__span {
-        font-size: 14px;
-        line-height: 22px;
-        font-family: $OpenSansR;
+        font-family: 14px/22px $OpenSansR;
         color: $lightGray;
+
+        @media screen and (max-width: 767px) {
+            font-size: 13px;
+        }
     }
 }

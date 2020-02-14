@@ -16,6 +16,10 @@
         margin: 0 auto 25px;
     }
 
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    }
+
     &__header {
         background: $lightBlue;
         padding: 27px 0 31px 139px;
@@ -29,6 +33,10 @@
             align-self: stretch;
             display: flex;
             align-items: center;
+        }
+
+        @media screen and (max-width: 767px) {
+            padding: 25px 20px 25px 50px;
         }
     }
 
@@ -88,6 +96,10 @@
 
         @media screen and (max-width: 1023px) {
             padding: 30px 25px;
+        }
+
+        @media screen and (max-width: 767px) {
+            padding: 25px 20px;
         }
     }
 

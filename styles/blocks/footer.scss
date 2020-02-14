@@ -11,6 +11,10 @@
         padding-bottom: 50px;
     }
 
+    @media screen and (max-width: 767px) {
+        padding-bottom: 30px;
+    }
+
     &__wrap {
         padding: 95px 0 24px;
         display: flex;
@@ -21,6 +25,10 @@
 
         @media screen and (max-width: 1023px) {
             padding: 50px 0 15px;
+        }
+
+        @media screen and (max-width: 767px) {
+            padding: 40px 0 15px;
         }
     }
 
@@ -40,6 +48,10 @@
 
             @media screen and (max-width: 1023px) {
                 width: 40%;
+            }
+
+            @media screen and (max-width: 767px) {
+                margin-left: 0;
             }
         }
     }
@@ -65,6 +77,10 @@
 
         @media screen and (max-width: 1365px) {
             width: 420px;
+        }
+
+        @media screen and (max-width: 767px) {
+            width: 100%;
         }
     }
 

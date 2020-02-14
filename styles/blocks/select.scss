@@ -14,11 +14,19 @@
         padding: 14px 10px;
     }
 
+    @media screen and (max-width: 767px) {
+        padding: 10px;
+    }
+
     &--trial {
         margin-bottom: 32px;
 
         @media screen and (max-width: 1023px) {
             margin-bottom: 25px;
+        }
+
+        @media screen and (max-width: 767px) {
+            margin-bottom: 20px;
         }
     }
 
@@ -28,6 +36,10 @@
 
         @media screen and (max-width: 1023px) {
             font-size: 13px;
+        }
+
+        @media screen and (max-width: 767px) {
+            font-size: 12px;
         }
     }
 }
