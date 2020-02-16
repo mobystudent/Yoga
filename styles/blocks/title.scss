@@ -8,6 +8,7 @@
         @media screen and (max-width: 1365px) {
             font-size: 24px;
             margin-bottom: 18px;
+            padding-left: 0;
         }
 
         @media screen and (max-width: 1023px) {
@@ -17,8 +18,8 @@
 
         @media screen and (max-width: 767px) {
             font-size: 20px;
-            padding-left: 0;
             text-align: center;
+            margin-bottom: 10px;
         }
     }
 
@@ -41,7 +42,15 @@
 
         @media screen and (max-width: 767px) {
             font-size: 36px;
-            line-height: 46px;
+            line-height: 44px;
+            margin-bottom: 10px;
+        }
+
+        @media screen and (max-width: 579px) {
+            font-size: 32px;
+            line-height: 38px;
+            text-align: center;
+            margin-bottom: 5px;
         }
     }
 
@@ -82,8 +91,8 @@
                 margin-bottom: 12px;
             }
 
-            @media screen and (max-width: 579px) {
-                margin-bottom: 10px;
+            @media screen and (max-width: 1023px) {
+                margin-bottom: 8px;
             }
         }
     }

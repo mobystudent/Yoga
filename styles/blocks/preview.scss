@@ -1,5 +1,5 @@
 .preview {
-    background: url("../img/bg-preview.jpg") no-repeat;
+    background: url("../img/bg-preview.jpg") center no-repeat;
     background-size: cover;
     padding: 100px 0 110px;
 
@@ -13,6 +13,10 @@
 
     @media screen and (max-width: 767px) {
         padding: 50px 0;
+    }
+
+    @media screen and (max-width: 579px) {
+        padding: 40px 0 50px;
     }
 
     &__wrap {
@@ -52,19 +56,20 @@
 
         @media screen and (max-width: 1023px) {
             margin-right: 45px;
-            width: 270px;
-            padding: 30px;
+            width: 250px;
+            padding: 25px;
+            flex: 0 0 auto;
         }
 
         @media screen and (max-width: 767px) {
-            padding: 20px 15px;
-            width: 220px;
-            flex: 0 0 auto;
+            padding: 20px 18px;
+            width: 210px;
+            margin-right: 35px;
         }
 
         @media screen and (max-width: 579px) {
             order: 2;
-            width: 260px;
+            width: 240px;
             margin-right: 0;
         }
     }

@@ -11,7 +11,7 @@
     }
 
     @media screen and (max-width: 1023px) {
-        padding: 14px 10px;
+        padding: 13px 10px;
     }
 
     @media screen and (max-width: 767px) {
@@ -21,12 +21,16 @@
     &--trial {
         margin-bottom: 32px;
 
+        @media screen and (max-width: 1365px) {
+            margin-bottom: 30px;
+        }
+
         @media screen and (max-width: 1023px) {
-            margin-bottom: 25px;
+            margin-bottom: 20px;
         }
 
         @media screen and (max-width: 767px) {
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
     }
 

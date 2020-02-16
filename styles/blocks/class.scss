@@ -8,7 +8,7 @@
     margin-bottom: 25px;
 
     @media screen and (max-width: 1365px) {
-        width: 480px;
+        width: 485px;
         margin-bottom: 20px;
     }
 
@@ -19,11 +19,12 @@
 
     @media screen and (max-width: 767px) {
         width: 460px;
+        margin: 0 auto 15px;
     }
 
     @media screen and (max-width: 579px) {
         flex-flow: column nowrap;
-        max-width: 280px;
+        width: 280px;
     }
 
     &:first-child {
@@ -31,10 +32,10 @@
             padding-right: 133px;
 
             @media screen and (max-width: 1023px) {
-                padding-right: 110px;
+                padding-right: 55px;
             }
 
-            @media screen and (max-width: 767px) {
+            @media screen and (max-width: 579px) {
                 padding-right: 0;
             }
         }
@@ -45,18 +46,37 @@
             padding-left: 133px;
 
             @media screen and (max-width: 1023px) {
-                padding-left: 110px;
+                padding-left: 15px;
             }
 
-            @media screen and (max-width: 767px) {
+            @media screen and (max-width: 579px) {
                 padding-left: 0;
             }
         }
     }
 
+    &__info {
+        padding: 43px 30px 45px;
+
+        @media screen and (max-width: 1365px) {
+            padding: 25px 20px;
+        }
+
+        @media screen and (max-width: 1023px) {
+            padding: 20px 30px 25px;
+        }
+
+        @media screen and (max-width: 767px) {
+            padding: 15px 20px 20px;
+        }
+
+        @media screen and (max-width: 579px) {
+            padding: 15px 15px 20px;
+        }
+    }
+
     &__title {
-        font-family: $OpenSansB;
-        font-size: 20px;
+        font: 20px $OpenSansB;
         color: $semiGray;
         text-transform: uppercase;
         margin-bottom: 25px;
@@ -66,50 +86,50 @@
             margin-bottom: 20px;
         }
 
-        @media screen and (max-width: 579px) {
+        @media screen and (max-width: 1023px) {
             font-size: 16px;
             margin-bottom: 15px;
+        }
+
+        @media screen and (max-width: 767px) {
+            font-size: 14px;
+            margin-bottom: 10px;
         }
     }
 
     &__descrip {
         font: 14px/22px $OpenSansR;
         color: $mediumGray;
-        margin-bottom: 9px;
+        margin-bottom: 6px;
         max-width: 222px;
 
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: 1023px) {
             font-size: 13px;
             line-height: 20px;
         }
 
-        @media screen and (max-width: 579px) {
-            max-width: 220px;
-        }
-    }
-
-    &__info {
-        padding: 43px 30px 46px;
-
-        @media screen and (max-width: 1365px) {
-            padding: 30px 20px;
-        }
-
-        @media screen and (max-width: 1023px) {
-            padding: 20px 30px;
-        }
-
         @media screen and (max-width: 767px) {
-            padding: 15px 20px;
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+        @media screen and (max-width: 579px) {
+            max-width: 100%;
         }
     }
 
     &__span {
-        font-family: 14px/22px $OpenSansR;
+        font: 14px/22px $OpenSansR;
         color: $lightGray;
 
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: 1023px) {
             font-size: 13px;
+            line-height: 20px;
+        }
+
+        @media screen and (max-width: 767px) {
+            font-size: 12px;
+            line-height: 18px;
         }
     }
 }

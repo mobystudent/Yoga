@@ -1,21 +1,25 @@
 .header {
-    padding: 13px 58px 9px 0;
+    padding: 13px 0 9px;
 
     @media screen and (max-width: 1365px) {
-        padding: 13px 0 9px 0;
-    }
-
-    @media screen and (max-width: 579px) {
-        padding: 9px 0;
+        padding: 10px 0;
     }
 
     &__wrap {
         display: flex;
         justify-content: center;
-        padding-right: 7px;
+        padding-right: 65px;
 
         @media screen and (max-width: 1365px) {
-            padding-left: 0;
+            padding-right: 45px;
+        }
+
+        @media screen and (max-width: 1023px) {
+            padding-right: 35px;
+        }
+
+        @media screen and (max-width: 767px) {
+            padding-right: 30px;
         }
 
         @media screen and (max-width: 579px) {

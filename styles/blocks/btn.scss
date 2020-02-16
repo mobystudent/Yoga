@@ -19,20 +19,22 @@
             min-width: 170px;
 
             @media screen and (max-width: 1365px) {
-                font-size: 16px;
+                font-size: 14px;
                 margin-right: 0;
+                min-width: 150px;
+                padding: 14px 25px;
             }
 
             @media screen and (max-width: 1023px) {
-                font-size: 14px;
+                font-size: 12px;
                 padding: 12px 20px;
-                min-width: 140px;
+                min-width: 130px;
             }
 
             @media screen and (max-width: 767px) {
                 font-size: 12px;
                 padding: 10px 15px;
-                min-width: 120px;
+                min-width: 110px;
                 margin: 0 auto;
             }
         }
@@ -55,7 +57,7 @@
             font-size: 14px;
             padding: 12px 20px;
             max-width: 140px;
-            margin: 0 15px 0 0;
+            margin: 0 25px 0 0;
             flex: 0 0 auto;
         }
 
@@ -63,6 +65,7 @@
             font-size: 12px;
             padding: 10px 15px;
             min-width: 120px;
+            margin: 0 20px 0 0;
         }
 
         @media screen and (max-width: 579px) {

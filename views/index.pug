@@ -28,7 +28,7 @@ block content
                      
          article.program
             section.container
-               section.program__wrap
+               section.program__title-block
                   h2.title.title--section.title--section-c Yoga FEATURE PROGRAM
                   span.subtitle.subtitle--section Our Classes
                section.wrap.wrap--program
@@ -36,7 +36,7 @@ block content
                   - const classTitle = ['Yoga For Health', 'Yoga For Lose Weight', 'Yoga For Children', 'Yoga For Elderly'];
                   - for (let i = 0; i < classTitle.length; i++)
                      article.class
-                        section.wrap.wrap--img-class
+                        figure.wrap.wrap--img-class
                            img.img.img--class(src=`../img/class-${i+1}.jpg` alt=`class-${i+1}`)
                         section.class__info
                            h3.class__title=classTitle[i]
@@ -57,7 +57,7 @@ block content
                      h3.title.title--section.title--section-l About us
                      p.about-us__descrip Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor it in lorei voluptate velit esse cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.
                   section.slider.slider--about-us
-                     section.slider__item.slider__item--about-us
+                     figure.slider__item.slider__item--about-us
                         img.img.img--slider(src="../img/slide-1.jpg" alt="slide-1")
                      section.slider__control.slider__control--about-us
                         span.slider__arrow.slider__arrow--about-us.slider__arrow--prev
@@ -71,42 +71,42 @@ block content
             section.container
                section.advantages__wrap
                   article.benefit
-                     section.benefit__icon
+                     figure.benefit__icon
                         img.img.img--benefit-1(src="../img/benefit-1.png" alt="benefit logo")
                      h3.benefit__title IMPROVED OVERALL <br> HEALTH
                      p.benefit__text Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.
                   article.benefit
-                     section.benefit__icon
+                     figure.benefit__icon
                         img.img.img--benefit-2(src="../img/benefit-2.png" alt="benefit logo")
                      h3.benefit__title INCREASED <br> CONCENTRATION
                      p.benefit__text Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.
                   article.benefit
-                     section.benefit__icon
+                     figure.benefit__icon
                         img.img.img--benefit-3(src="../img/benefit-3.png" alt="benefit logo")
                      h3.benefit__title BLANCE <br> YOUR MIND
                      p.benefit__text Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.
                   article.benefit
-                     section.benefit__icon
+                     figure.benefit__icon
                         img.img.img--benefit-4(src="../img/benefit-4.png" alt="benefit logo")
                      h3.benefit__title SLEEP <br> BETTER
                      p.benefit__text Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.
                   article.benefit
-                     section.benefit__icon
+                     figure.benefit__icon
                         img.img.img--benefit-5(src="../img/benefit-5.png" alt="benefit logo")
                      h3.benefit__title WEIGHT LOSS
                      p.benefit__text Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.
                   article.benefit
-                     section.benefit__icon
+                     figure.benefit__icon
                         img.img.img--benefit-6(src="../img/benefit-6.png" alt="benefit logo")
                      h3.benefit__title STRENGTHENS <br> YOUR BONES
                      p.benefit__text Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.
                   article.benefit
-                     section.benefit__icon
+                     figure.benefit__icon
                         img.img.img--benefit-7(src="../img/benefit-7.png" alt="benefit logo")
                      h3.benefit__title INCREASED <br> FLEXIBILITY
                      p.benefit__text Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.
                   article.benefit
-                     section.benefit__icon
+                     figure.benefit__icon
                         img.img.img--benefit-8(src="../img/benefit-8.png" alt="benefit logo")
                      h3.benefit__title LOWER BLOOD <br> PRESSURE
                      p.benefit__text Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.
@@ -135,7 +135,7 @@ block content
                section.slider__wrap.slider__wrap--trainer
                   section.slider__content
                      section.slider__item.slider__item--trainer
-                        article.wrap.wrap--img-avatar.wrap--img-trainer(href="#")
+                        figure.wrap.wrap--img-avatar.wrap--img-trainer(href="#")
                            img.img.img--avatar(src='../img/avatar.jpg' alt='avatar')
                         section.slider__info
                            blockquote.slider__quote Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.
@@ -150,17 +150,17 @@ block content
                      span.slider__point
                         
                   section.slider__subview
-                     article.wrap.wrap--img-avatar.wrap--img-sub(href="#")
+                     figure.wrap.wrap--img-avatar.wrap--img-sub(href="#")
                         img.img.img--avatar(src='../img/avatar-2.png' alt='avatar-2')
                      section.slider__data
                         span.slider__span.slider__span--name.slider__span--name-sub Sara Taylor
                         span.slider__span.slider__span--pos.slider__span--pos-sub Trainer
                         
                      section.slider__control.slider__control--sub
-                        span.slider__arrow.slider__arrow--prev.slider__arrow--sub
+                        figure.slider__arrow.slider__arrow--prev.slider__arrow--sub
                            svg.icon.icon--arrow-sub
                               use.icon__item.icon__item--slider(xlink:href="#arrow")
-                        span.slider__arrow.slider__arrow--next.slider__arrow--sub
+                        figure.slider__arrow.slider__arrow--next.slider__arrow--sub
                            svg.icon.icon--arrow-sub
                               use.icon__item.icon__item--slider(xlink:href="#arrow")
 
